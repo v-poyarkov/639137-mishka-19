@@ -1,0 +1,21 @@
+.specif-list {
+  border-spacing: 0;
+}
+
+.specif-list__item td {
+  padding: 7px 27px 7px 0;
+  border-bottom: 1px solid $white-2;
+}
+
+@media (min-width: 768px) {
+  .specif-list {
+    width: 280px;
+    margin-top: 12px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .specif-list {
+    margin-top: 27px;
+  }
+}

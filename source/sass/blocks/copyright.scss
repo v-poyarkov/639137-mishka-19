@@ -1,0 +1,39 @@
+.copyright {
+  padding: 28px 35px 23px;
+}
+
+.copyright__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright__link-text {
+  padding-right: 30px;
+  font-family: "Open Sans", "Tahoma", sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+
+  line-height: 1;
+
+  color: $black;
+}
+
+.copyright__link-img {
+  fill: $seafoam-blue;
+}
+
+.copyright__link:hover .copyright__link-img,
+.copyright__link:focus .copyright__link-img {
+  fill: $greeny-blue-1;
+}
+
+.copyright__link:active {
+  opacity: 0.3;
+}
+
+@media (min-width: 768px) {
+  .copyright {
+    padding: 0;
+  }
+}

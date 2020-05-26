@@ -1,0 +1,33 @@
+.social {
+  margin: 0;
+  padding: 0;
+}
+
+.social__list {
+  min-width: 140px;
+  margin-top: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 25px 55px 0;
+}
+
+.social__link {
+  fill: $black-2;
+}
+
+.social__link:hover,
+.social__link:focus {
+  fill: $greeny-blue-1;
+}
+
+.social__link:active {
+  opacity: 0.3;
+}
+
+@media (min-width: 768px) {
+  .social__list {
+    padding: 0;
+  }
+}

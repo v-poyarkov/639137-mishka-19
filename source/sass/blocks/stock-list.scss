@@ -1,0 +1,34 @@
+.stock-list {
+  display: none;
+}
+
+.stock-list__link {
+  font-weight: bold;
+  color: $black;
+}
+
+.stock-list__item:hover .stock-list__link,
+.stock-list__item:focus .stock-list__link {
+  opacity: 0.6;
+}
+
+.stock-list__item:active .stock-list__link {
+  opacity: 0.3;
+}
+
+@media (min-width: 1150px) {
+  .stock-list {
+    position: absolute;
+    top: 90px;
+    left: 10px;
+    z-index: 1;
+
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .stock-list__item:nth-child(2n) {
+    padding-left: 60px;
+    padding-right: 30px;
+  }
+}
