@@ -1,108 +1,108 @@
 .modal-popup {
-  position: fixed;
-  z-index: 10;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    position: fixed;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
-  width: 320px;
-  margin: 0 auto;
-  padding: 35px 30px;
+    width: 320px;
+    margin: 0 auto;
+    padding: 35px 30px;
 
-  display: none;
+    display: none;
 
-  border: 1px solid $grey-2;
-  box-shadow: 0 5px 10px 0 rgba(0, 1, 1, 0.25);
-  background-color: $white;
+    border: 1px solid $grey-2;
+    box-shadow: 0 5px 10px 0 rgba(0, 1, 1, 0.25);
+    background-color: $white;
 }
 
 .modal-popup--show {
-  display: block;
+    display: block;
 }
 
 .modal-popup__title {
-  width: 150px;
-  margin: 0 auto;
+    width: 150px;
+    margin: 0 auto;
 
-  font-size: 25px;
-  font-weight: bold;
-  line-height: 1.2;
-  text-align: center;
-  text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
 
-  color: $black;
+    color: $black;
 }
 
 .modal-popup__info {
-  width: 150px;
-  margin: 0 auto;
-  padding-top: 13px;
+    width: 150px;
+    margin: 0 auto;
+    padding-top: 13px;
 
-  font-size: 15px;
-  line-height: 2;
-  text-align: center;
+    font-size: 15px;
+    line-height: 2;
+    text-align: center;
 
-  color: $greyish-brown;
+    color: $greyish-brown;
 }
 
 .modal-popup__wrapper {
-  margin-top: 20px;
-  margin-bottom: 30px;
-  padding: 15px 0;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 15px 0;
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .modal-popup__size {
-  padding: 15px 33px;
+    padding: 15px 33px;
 
-  font-size: 17px;
-  line-height: 1;
-  font-weight: bold;
-  cursor: pointer;
+    font-size: 17px;
+    line-height: 1;
+    font-weight: bold;
+    cursor: pointer;
 
-  color: $greyish-brown;
-  background-color: $white;
-  border: 2px solid rgba(68, 68, 68, 0.1);
+    color: $greyish-brown;
+    background-color: $white;
+    border: 2px solid rgba(68, 68, 68, 0.1);
 }
 
 .modal-popup__size:hover {
-  border: 2px solid rgba(68, 68, 68, 0.3);
+    border: 2px solid rgba(68, 68, 68, 0.3);
 }
 
 .modal-popup__input:checked + .modal-popup__size {
-  border: 2px solid $seafoam-blue-2;
+    border: 2px solid $seafoam-blue-2;
 }
 
 .modal-popup__button {
-  border: none;
-  color: $white;
-  background-color: $seafoam-blue;
+    border: none;
+    color: $white;
+    background-color: $seafoam-blue;
 }
 
 @media (min-width: 768px) {
-  .modal-popup {
-    width: 566px;
-    margin: 0 auto;
-    padding: 35px 105px;
-  }
+    .modal-popup {
+        width: 566px;
+        margin: 0 auto;
+        padding: 35px 105px;
+    }
 
-  .modal-popup__title {
-    width: 100%;
-    font-size: 30px;
-    font-weight: bold;
-    line-height: 1.9;
-  }
+    .modal-popup__title {
+        width: 100%;
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 1.9;
+    }
 
-  .modal-popup__info {
-    width: 100%;
-    font-size: 17px;
-    line-height: 1.8;
-  }
+    .modal-popup__info {
+        width: 100%;
+        font-size: 17px;
+        line-height: 1.8;
+    }
 
-  .modal-popup__size {
-    padding: 15px 50px;
-  }
+    .modal-popup__size {
+        padding: 15px 50px;
+    }
 }

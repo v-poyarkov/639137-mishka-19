@@ -1,26 +1,26 @@
 .title-main {
-  margin: 0;
-  margin-top: 30px;
-  margin-bottom: 5px;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 5px;
 
-  font-family: "Open Sans", "Tahoma", sans-serif;
-  font-size: 25px;
-  font-weight: bold;
+    font-family: "Open Sans", "Tahoma", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
 
-  line-height: 1.2;
+    line-height: 1.2;
 
-  color: $black;
+    color: $black;
 }
 
 @media (min-width: 768px) {
-  .title-main {
-    font-size: 43px;
-    line-height: 1;
-  }
+    .title-main {
+        font-size: 43px;
+        line-height: 1;
+    }
 }
 
 @media (min-width: 1150px) {
-  .title-main {
-    font-size: 53px;
-  }
+    .title-main {
+        font-size: 53px;
+    }
 }
